@@ -1,4 +1,7 @@
-# NanoHTTPD
+# AndroidServer
+
+[![](https://jitpack.io/v/LiPengfei0106/AndroidServer.svg)](https://jitpack.io/#LiPengfei0106/AndroidServer)
+
 Android端轻量级的http服务，支持http请求、websocket连接、web文件服务器
 
 ## 引入
@@ -15,7 +18,7 @@ dependencyResolutionManagement {
 Add the dependency
 ```kotlin
 dependencies {
-    implementation 'com.github.LiPengfei0106:WebrtcHelper:1.0.0'
+    implementation 'com.github.LiPengfei0106:AndroidServer:1.0.0'
 }
 ```
 
