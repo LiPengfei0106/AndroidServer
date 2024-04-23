@@ -1,6 +1,24 @@
 # NanoHTTPD
 Android端轻量级的http服务，支持http请求、websocket连接、web文件服务器
 
+## 引入
+Add it in your root build.gradle at the end of repositories:
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Add the dependency
+```kotlin
+dependencies {
+    implementation 'com.github.LiPengfei0106:WebrtcHelper:1.0.0'
+}
+```
+
 ## 使用见示例app代码
 
 ```kotlin
